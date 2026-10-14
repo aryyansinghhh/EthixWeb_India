@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Admin — Ethixweb Leads</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/admin.css"></head>
+<body class="adm"><div class="adm-login" id="login"><form class="adm-box" id="lf"><h2>Admin Login</h2><p>Enter the admin password to manage leads.</p>
+<label class="fl" for="apw">Password</label><input class="adm-fi" type="password" id="apw" autocomplete="current-password" required>
+<button class="fsub" type="submit" style="margin-top:4px">Login →</button><div class="adm-msg" id="almsg" role="alert"></div><a class="adm-back" href="/">← Back to site</a></form></div>
+<div id="dash" hidden><div class="admp-hd"><h2>Ethixweb — Leads Dashboard</h2><div class="admp-actions">
+<input class="adm-fi adm-s" id="q" placeholder="Search name, email, service…" aria-label="Search leads">
+<select class="adm-fi adm-s" id="fl" aria-label="Filter status"><option value="">All statuses</option><option>new</option><option>contacted</option><option>qualified</option><option>closed</option></select>
+<button class="adm-btn" id="exp" type="button">Export CSV</button><button class="adm-close" id="out" type="button">Logout</button></div></div>
+<div class="admp-bd"><p class="adm-count">Showing <b id="cnt">0</b> of <b id="tot">0</b> leads</p><div class="lt-wrap"><table class="lt"><thead><tr><th>Date</th><th>Name</th><th>Contact</th><th>Service</th><th>Message</th><th>Status</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="adm-empty" id="empty" hidden><p>No leads yet</p><small>Submit the contact form to see one appear here.</small></div></div></div>
+<script src="/js/admin.js"></script></body></html>

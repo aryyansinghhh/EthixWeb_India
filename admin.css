@@ -1,0 +1,6 @@
+body.adm{overflow:auto;cursor:auto}.adm-login{min-height:100vh;display:flex;align-items:center;justify-content:center}
+.adm-login .adm-box{display:block}[hidden]{display:none!important}
+#dash{min-height:100vh}.adm-s{width:auto;min-width:170px;padding:9px 12px;font-size:13px}
+.lt td select{background:var(--bg2);color:var(--chalk);border:1px solid var(--rule);padding:6px 8px;font:inherit}
+.lt td.m{max-width:320px;white-space:pre-wrap;word-break:break-word}.lt a{color:var(--chalk);text-decoration:underline}
+.adm-msg.show{display:block;background:rgba(232,25,44,.1);color:var(--red);border-left:2px solid var(--red)}
